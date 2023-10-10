@@ -10,17 +10,17 @@ public class Car
 	
 	public Car(Engine engine, Tire tire, Lamp lamp) 
 	{
-		Console.WriteLine("sudah menerima engine, ban, lampu");
 		mesin = engine;
 		ban = tire;
 		this.lamp = lamp;
+		
+		Console.WriteLine("sudah menerima engine, ban, lampu");
+		// Console.WriteLine("Car have a " + Engine + " now");
 	}
 	public void EngineCheck()
 	{
-		// Console.WriteLine(engine);
 	}
 	public void TireCheck() 
 	{
-		// Console.WriteLine(tire);
 	}
 }
