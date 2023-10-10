@@ -6,12 +6,18 @@ class Car
 	public string colour;
 	public int door;
 	public string brand;
-	//constructionobjek/instance
-	public Car(string colour, int door, string brand)
+	//construction objek/instance
+	// public Car(string colour, int door, string brand)
+	// {
+	// 	this.brand = brand;
+	// 	this.colour = colour;
+	// 	this.door = door;
+	// }
+	public Car()
 	{
-		this.brand = brand;
-		this.colour = colour;
-		this.door = door;
+		brand ="Honda";
+		door = 4;
+		colour ="pink";
 	}
 	//method/function	
 	public void EngineRun()
