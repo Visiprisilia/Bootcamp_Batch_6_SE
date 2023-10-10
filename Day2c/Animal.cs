@@ -9,6 +9,7 @@ public class Animal
 		Console.WriteLine($"Animal name is {name} instance created");
 		Console.WriteLine($"Animal age is {age} instance created");
 		this.name = name;
+		this.age = age;
 	}
 
 	public void Eat() 
