@@ -23,9 +23,9 @@ public class Car
 	{
 		//String Interpolation
 		Console.WriteLine(direction);
-		Console.WriteLine("Car move to " + direction + " now");
-		Console.WriteLine($"Car move to {direction} now");
-		Console.WriteLine($"\t Car move \n to {direction} now");
+		Console.WriteLine("mobil berpindah ke " + direction + " sekarang");
+		Console.WriteLine($"mobil berpindah ke {direction} sekarang");
+		Console.WriteLine($"\t mobil berpindah \n ke {direction} sekarang");
 	}
 	
 }
