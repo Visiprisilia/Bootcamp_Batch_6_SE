@@ -10,7 +10,9 @@ class Program
 		// Console.WriteLine(toyota.brand);
 		Car toyota = new Car();
 		toyota.brand="Mitsubishi";
-		Console.WriteLine(toyota.brand);
+		Console.WriteLine(toyota.brand); //membaca yang terakhir di declarate
+		Console.WriteLine(toyota.door);
+		Console.WriteLine(toyota.colour);
 		
 		
 	}
