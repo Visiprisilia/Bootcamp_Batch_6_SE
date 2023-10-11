@@ -8,7 +8,7 @@ public class Dog : Animal
 	}
 	public void Run() 
 	{
-		Console.WriteLine("Run");
+		Console.WriteLine("Run doggy");
 	}
 	public void Bark() 
 	{

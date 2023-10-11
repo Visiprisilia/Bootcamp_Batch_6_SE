@@ -10,5 +10,8 @@ class Program
 		Console.WriteLine(dog.name);
 		Console.WriteLine(dog.age);
 		Console.WriteLine(cat.age);
+		dog.Run();
+		cat.Jump();
+		
 	}
 }

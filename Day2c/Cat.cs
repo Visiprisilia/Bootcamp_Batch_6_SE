@@ -8,7 +8,7 @@ public class Cat : Animal
 	}
 	public void Jump() 
 	{
-		Console.WriteLine("Jump");
+		Console.WriteLine("Jumpp");
 	}
 	public void Meow() 
 	{
