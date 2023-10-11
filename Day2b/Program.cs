@@ -9,7 +9,6 @@ class Program
 		Engine diesel = new Engine("diesel","rollsroyce");
 		Tire hancock = new Tire();
 		Lamp osram = new Lamp();
-		
 
 		Car car = new Car(diesel, hancock, osram);
 		

@@ -1,4 +1,4 @@
-﻿//Overloading
+﻿//Overloading = method sama parameter yg berbeda
 class Program {
 	static void Main() {
 		Perhitungan hitung = new();
@@ -7,5 +7,6 @@ class Program {
 		hitung.Add(1,2,3);
 		hitung.Add("1","2");
 		Console.WriteLine(hitung.Add("1","2"));
+		Console.WriteLine(hitung.Add("1","2","3"));
 	}
 }
