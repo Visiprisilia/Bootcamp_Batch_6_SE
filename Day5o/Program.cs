@@ -1,5 +1,4 @@
 ﻿//Generic Collector
-void Main()
 class Program 
 {
 static void Main()
@@ -10,14 +9,16 @@ static void Main()
 	collection.Add(4);
 	collection.Add(5);
 	int result = collection.Get(1);
-	result.Dump();
+	// result.Dump();
+	Console.WriteLine(result);
 
 	GenericCollection<bool> collectionOfBool = new();
 	collectionOfBool.Add(true);
 	collectionOfBool.Add(false);
 	bool resultOfBool = collectionOfBool.myCollection[0];
-	resultOfBool.Dump();
-}
+	// resultOfBool.Dump();
+	Console.WriteLine(resultOfBool);
+}}
 class GenericCollection<T>
 {
 	public T[] myCollection = new T[100];
@@ -32,4 +33,4 @@ class GenericCollection<T>
 	public T Get(int x) {
 		return myCollection[x];
 	}
-}}}
+}}

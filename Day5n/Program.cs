@@ -10,10 +10,10 @@ static void Main()
 	transportation[1] = new Plane();
 	transportation[2] = new Car();
 	//transportation[3] = new Sayur();
-}
+}}
 public interface ITransport { }
 class Car : ITransport { }
 class Truck : ITransport { }
 class Plane : ITransport { }
 class Sayur { }
-}}
+}

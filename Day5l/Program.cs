@@ -10,10 +10,10 @@ static void Main()
 	myList.Add(new Truck());
 	myList.Add(new Plane());
 	//myList.Add(new Sayur()); Error
-}
+}}
 public interface ITransport { }
 class Car : ITransport{ }
 class Truck : ITransport { }
 class Plane : ITransport { }
 class Sayur { }
-}}
+}

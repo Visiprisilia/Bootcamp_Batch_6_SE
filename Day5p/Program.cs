@@ -22,7 +22,7 @@ static void Main()
 	Car divideCar = carB - carA;
 	// divideCar.GetPrice().Dump(); // 1000
 	Console.WriteLine(divideCar.GetPrice);
-}
+}}
 class Combiner<T> where T : IAdditionOperators<T,T,T> 
 {
 	public T Add(T a, T b) {
@@ -46,4 +46,4 @@ class Car : IAdditionOperators<Car, Car, Car>
 	{
 		return new Car(left.GetPrice() - right.GetPrice());
 	}
-}}}
+}}
