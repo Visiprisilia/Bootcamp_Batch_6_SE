@@ -9,8 +9,8 @@ class Program
 	Cat oyen = new Cat();
 	
 	oyen.name = "Oyen";
-	oyen.colour = "Yelloww";
-	oyen.leg = 5;
+	oyen.colour = "Yellow";
+	oyen.leg = 4;
 	oyen.istaillong = true;
 	oyen.height = 50;
 	oyen.weight = 20;
