@@ -13,6 +13,7 @@ static void Main()
 	
 	Console.WriteLine(car1.value);
 	Console.WriteLine(car2.value);
+	Console.WriteLine(car3.value);
 }
 
 class Car {
