@@ -1,26 +1,23 @@
-﻿public delegate void MyDelegate(); //wadah dari method
+﻿public delegate void MyDelegate();
 
-class Program {
-	static void Main() {
-		MyDelegate myDelegate = Printer;
-		myDelegate += Layangan;
-		myDelegate += Printer2;
-		myDelegate += Layangan2;
+class Program 
+{
+	static void Main()
+	{
+		 MyDelegate Mydel = Fotocopy;
+		 Mydel += Printer;
+		 
+		 Mydel();
+		 
 		
-		myDelegate(); //Invoke
 	}
-	static void Printer() {
-		Console.WriteLine("Printerrr");
-	}
-	static void Layangan() {
-		Console.WriteLine("Layangann");
-	}
-	static void Printer2()
+	static void Fotocopy()
 	{
-		Console.WriteLine("Printerrs");
+		Console.WriteLine("Fotocopyyy");
 	}
-	static void Layangan2()
+	static void Printer()
+	
 	{
-		Console.WriteLine("Layanganns");
+		Console.WriteLine("Printer");
 	}
 }
