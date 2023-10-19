@@ -18,46 +18,46 @@
 
 // Reference Type, why dont need Ref
 
-// class Program
-// {
-// 	static void Main()
-// 	{
-// 		Car car = new Car(2000); //Reference Type
-// 		MultiplyByTwoCar(car);
-// 		Console.WriteLine(car); // 4000
-// 	}
+class Program
+{
+	static void Main()
+	{
+		Car car = new Car(2000); //Reference Type
+		MultiplyByTwoCar(car);
+		Console.WriteLine(car); // 4000
+	}
 
-// 	void MultiplyByTwoCar(Car input)
-// 	{
-// 		input.price = input.price * 2;
-// 	}
+	void MultiplyByTwoCar(Car input)
+	{
+		input.price = input.price * 2;
+	}
 
-// 	class Car
-// 	{
-// 		public int price;
-// 		public Car(int value)
-// 		{
-// 			price = value;
-// 		}
-// 	}
-// }
+	class Car
+	{
+		public int price;
+		public Car(int value)
+		{
+			price = value;
+		}
+	}
+}
 
 
 // //String
-class Program
-{
-	 void Main()
-	{
-		string myString = "Hello";
-		StringAppender(ref myString);
-		Console.WriteLine(myString);
-	}
+// class Program
+// {
+// 	 void Main()
+// 	{
+// 		string myString = "Hello";
+// 		StringAppender(ref myString);
+// 		Console.WriteLine(myString);
+// 	}
 
-	 void StringAppender(ref string input)
-	{
-		input = input + "!!!!";
-	}
-}
+// 	 void StringAppender(ref string input)
+// 	{
+// 		input = input + "!!!!";
+// 	}
+// }
 
 
 
