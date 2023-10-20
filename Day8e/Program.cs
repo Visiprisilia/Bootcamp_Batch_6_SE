@@ -9,17 +9,17 @@ class Program
 		Caller(ref x);
 	}
 	catch(Exception e) {
-		throw new EvaluateException();
+		// throw new EvaluateException();
+		Console.WriteLine(e.Message);
 	}
 	finally {
 		Console.WriteLine("release resource");
 	}
-	// x.Dump();
 	Console.WriteLine(x);
 	Console.WriteLine("Finish all task");
 }
 
-void Caller(ref int x)
+static void Caller(ref int x)
 {
 	Console.WriteLine("Caller called");
 	int a = int.Parse(Console.ReadLine());

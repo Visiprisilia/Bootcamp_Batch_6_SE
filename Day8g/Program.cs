@@ -6,8 +6,8 @@ class Program
 	{
 	int result = Add(3,4);
 	int result2 = Add(3,4,5,7,8,8,9,9,9,9,9,9,1);
-	result.Dump();
-	result2.Dump();
+	Console.WriteLine(result);
+	Console.WriteLine(result2);
 	// StringCombiner("hello","world").Dump();
 	Console.WriteLine(StringCombiner("hello","world"));
 }
