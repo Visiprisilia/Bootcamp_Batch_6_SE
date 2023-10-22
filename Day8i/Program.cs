@@ -1,27 +1,35 @@
 ﻿//HTTPRequest enum
-
-public enum HTTPRequest {
-	NotFound = 404,
-	OK = 200,
-	Forbidden = 403
-}
-
-void Main()
+class program
 {
-	WebAccess.ContinueAccess(HTTPRequest.Forbidden);
-}
-
-class WebAccess {
-	public static void ContinueAccess(HTTPRequest status) {
-		if (status == HTTPRequest.NotFound) {
-			((int)status).Dump();
-		}
-		else if (status == HTTPRequest.OK) {
-			((int)status).Dump();
-		}
-		else
+	public enum HTTPRequest
+	{
+		NotFound = 404,
+		OK = 200,
+		Forbidden = 403
+	}
+	static void Main()
+	{
+		WebAccess.ContinueAccess(HTTPRequest.Forbidden);
+	}
+	class WebAccess
+	{
+		public static void ContinueAccess(HTTPRequest status)
 		{
-			((int)status).Dump();
+			if (status == HTTPRequest.NotFound)
+			{
+				// ((int)status).Dump();
+				Console.WriteLine((int)status);
+			}
+			else if (status == HTTPRequest.OK)
+			{
+				// ((int)status).Dump();
+				Console.WriteLine((int)status);
+			}
+			else
+			{
+				// ((int)status).Dump();
+				Console.WriteLine((int)status);
+			}
 		}
 	}
 }

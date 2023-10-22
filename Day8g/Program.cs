@@ -1,15 +1,11 @@
 ﻿//Params + Generic Constraint
 using System.Numerics;
-class Program
-{
-	static void Main()
-	{
+void Main() {
 	int result = Add(3,4);
 	int result2 = Add(3,4,5,7,8,8,9,9,9,9,9,9,1);
 	Console.WriteLine(result);
 	Console.WriteLine(result2);
-	// StringCombiner("hello","world").Dump();
-	Console.WriteLine(StringCombiner("hello","world"));
+	Console.WriteLine(StringCombiner("hello","pisiiii"));
 }
 
 T Add<T>(params T[] x) where T : INumber<T> 
@@ -27,4 +23,4 @@ string StringCombiner(params string[] strings) {
 		result += " " + s;
 	}
 	return result;
-}}
+}

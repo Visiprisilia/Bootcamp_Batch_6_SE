@@ -10,12 +10,12 @@ class Program
 			return x + y;
 		};
 
-		var printer = (object x) => x.Dump();
-		var nggangapa2in = () => "diam".Dump();
+		var printer = (object x) => Console.WriteLine(x); 
+		var nggangapa2in = () => Console.WriteLine("diam");
 
-		printer(30);
+		printer(50);
 		int result = method(3, 4);
-		result.Dump();
+		Console.WriteLine(result);
 	}
 
 	int Add(int x, int y)
