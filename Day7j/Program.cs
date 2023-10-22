@@ -17,7 +17,7 @@ class Program
 		{
 			eventHandler?.Invoke(this, new EventData()
 			{
-				name = "Visiii",
+				name = "Visi",
 				age = 23
 			});
 		}
@@ -31,7 +31,7 @@ class Program
 		public void Notification(object sender, EventData e)
 		{
 			// $"Called by {e.name} {e.price}".Dump();
-			Console.WriteLine($"Called by {e.name} {e.age}");
+			Console.WriteLine("Called by "+ e.name +" "+ e.age);
 		}
 	}
 	class EventData : EventArgs
