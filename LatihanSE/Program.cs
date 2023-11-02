@@ -6,16 +6,22 @@ using System.Threading.Tasks;
 using foobar;
 
 
-   class Program
-    {
-        static void Main()
-        {
-            Console.WriteLine("Masukkan angka yang ingin ditampilkan:");
-            var angka = Console.ReadLine();
-            foobar(int.Parse(angka));
-            Console.ReadLine();
-        }
+class Program
+{
+	static void Main()
+	{
+		Console.Write("Masukkan angka yang akan ditampilkan: ");
+		bool warning = int.TryParse(Console.ReadLine(), out int num);
 
-       
-    
+		if (warning == false)
+		{
+			Console.WriteLine("Masukkan Harus Berupa Angka");
+		}
+		else
+		{
+			Foobar.foobar(num);
+		}
+	}
+
+
 }
