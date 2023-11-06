@@ -14,6 +14,6 @@ class Program
         // Simulate an asynchronous operation
         await Task.Delay(1000);
 
-        //return a + b;
+        return a + b;
     }
 }
