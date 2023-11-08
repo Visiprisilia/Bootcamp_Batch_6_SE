@@ -1,9 +1,10 @@
 ﻿namespace Namespace
-{
+;
 	static class Program
 	{
 		static void Main()
 		{
+			
 			double a = 4.0;
 			double b = 2.5;
 			double answer = Add(a, b);
@@ -15,4 +16,3 @@
 			return a * b;
 		}
 	}
-}
