@@ -173,6 +173,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPT_ComparisonFilevsStream"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial", "Day18\Trial\Trial.csproj", "{B1E0083A-EF8F-4DA4-93A2-08B60B48ABED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monopoly", "Monopoly\Monopoly.csproj", "{708260CB-5F7D-4D00-9A29-10A107EC337A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -510,6 +512,10 @@ Global
 		{B1E0083A-EF8F-4DA4-93A2-08B60B48ABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E0083A-EF8F-4DA4-93A2-08B60B48ABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E0083A-EF8F-4DA4-93A2-08B60B48ABED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708260CB-5F7D-4D00-9A29-10A107EC337A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708260CB-5F7D-4D00-9A29-10A107EC337A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708260CB-5F7D-4D00-9A29-10A107EC337A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708260CB-5F7D-4D00-9A29-10A107EC337A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{52B720A2-4564-4F94-A9F4-CD6479CF2579} = {D028D526-4403-42A9-BE93-3D25E213AEDB}
