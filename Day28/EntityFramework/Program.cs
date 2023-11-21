@@ -22,7 +22,7 @@ class Program
 				}
 			}
 
-			var products = db.Products.Where(p => p.CategoryId == 1);
+			var products = db.Products.Where(p => p.CategoryId == 2);
 			foreach(Product p in products) 
 				{
 					Console.WriteLine($"\t {p.ProductName}");
